@@ -18,9 +18,9 @@ const ExperienceSection = () => {
             {/* Timeline line */}
             <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-1/2" />
 
-            <div className="glass-card rounded-xl p-6 md:p-8 md:ml-auto md:w-[calc(50%-2rem)] relative gradient-border">
+            <div className="glass-card rounded-xl p-6 md:p-8 md:mr-auto md:w-[calc(50%-2rem)] relative gradient-border">
               {/* Timeline dot */}
-              <div className="absolute left-0 md:left-auto md:-left-[calc(50%+2rem+0.5rem)] top-8 w-4 h-4 rounded-full bg-primary glow-primary -translate-x-1/2 md:translate-x-0" />
+              <div className="absolute right-0 md:right-auto md:-right-[calc(-50%+1rem)] top-8 w-4 h-4 rounded-full bg-primary glow-primary translate-x-1/2" />
 
               <div className="flex items-center gap-2 text-primary mb-4">
                 <Briefcase size={20} />
